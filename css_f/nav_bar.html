@@ -58,11 +58,31 @@
         color: black;
     }
 
+    .submenu-1{
+        display: none;
+    }
+    .navbar li:hover .submenu-1{
+        display:block;
+        position: absolute;
+    }
+
 </style>
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="">Home</a>
+                <div class="submenu-1">
+                    <ul>
+                        <li>Home Menu #1</li>
+                        <li>Home Menu #1</li>
+                        <li>Home Menu #1</li>
+                        <li>Home Menu #1</li>
+                    </ul>
+                </div>
+            
+            </li>
+
+
             <li><a href="">About</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Products</a></li>
